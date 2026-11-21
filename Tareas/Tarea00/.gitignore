@@ -1,0 +1,85 @@
+# ==========================================
+# .gitignore para la tarea de ASM: Numeraciones en ASM (GutOwe)
+# TASM 3.2 + TLINK 3.01 en DOSBox, editado en VS Code
+# Va dentro de la carpeta de la tarea, junto a GutOwe.ASM
+# Solo se sube el código fuente (.ASM) y el README
+# ==========================================
+
+# ==========================================
+# Archivos generados por TASM y TLINK
+# (DOS guarda los nombres en mayúsculas, por eso se repiten)
+# ==========================================
+*.obj
+*.OBJ
+*.exe
+*.EXE
+*.com
+*.COM
+*.map
+*.MAP
+*.lst
+*.LST
+*.crf
+*.CRF
+*.xrf
+*.XRF
+
+# ==========================================
+# Herramientas de Borland copiadas a la carpeta de la tarea
+# (si TASM, TLINK y el depurador están en la misma carpeta)
+# ==========================================
+*.ovl
+*.OVL
+*.dll
+*.DLL
+*.td
+*.TD
+*.tr
+*.TR
+*.tdk
+*.TDK
+*.cfg
+*.CFG
+
+# ==========================================
+# DOSBox
+# ==========================================
+stdout.txt
+stderr.txt
+dosbox*.log
+*.mapper
+dosbox-*.conf
+capture/
+
+# ==========================================
+# VS Code
+# ==========================================
+.vscode/
+*.code-workspace
+
+# ==========================================
+# Archivos comprimidos
+# ==========================================
+*.zip
+*.rar
+*.7z
+
+# ==========================================
+# Archivos temporales
+# ==========================================
+tmp/
+*.tmp
+*.TMP
+*.bak
+*.BAK
+*.swp
+*.swo
+*~
+
+# ==========================================
+# Archivos del sistema
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log

@@ -1,0 +1,119 @@
+# ==========================================
+# .gitignore para el repositorio de Fundamentos de Organización de Computadoras
+# Ensamblador de 16 bits (MASM / TASM / NASM) con VS Code y DOSBox
+# Va en la raíz del repositorio
+# Los patrones sin "/" inicial aplican en todas las subcarpetas
+# ==========================================
+
+# ==========================================
+# Archivos generados por el ensamblador y el enlazador
+# (DOS guarda los nombres en mayúsculas, por eso se repiten)
+# ==========================================
+*.obj
+*.OBJ
+*.o
+*.exe
+*.EXE
+*.com
+*.COM
+*.bin
+*.BIN
+*.sys
+*.SYS
+
+# ==========================================
+# Listados y mapas
+# ==========================================
+*.lst
+*.LST
+*.map
+*.MAP
+*.crf
+*.CRF
+*.cod
+*.COD
+*.sym
+*.SYM
+*.xref
+*.cref
+
+# ==========================================
+# Bibliotecas e información de depuración
+# ==========================================
+*.lib
+*.LIB
+*.sbr
+*.bsc
+*.pdb
+*.ilk
+*.dbg
+*.tr
+*.TR
+
+# ==========================================
+# Carpetas de salida
+# ==========================================
+bin/
+obj/
+build/
+out/
+Debug/
+Release/
+
+# ==========================================
+# DOSBox
+# ==========================================
+stdout.txt
+stderr.txt
+dosbox*.log
+*.mapper
+dosbox-*.conf
+capture/
+
+# ==========================================
+# Imágenes de disco
+# ==========================================
+*.img
+*.IMG
+*.iso
+*.vhd
+*.vdi
+
+# ==========================================
+# VS Code
+# ==========================================
+.vscode/
+*.code-workspace
+
+# ==========================================
+# Archivos comprimidos
+# ==========================================
+*.zip
+*.rar
+*.7z
+
+# ==========================================
+# Archivos temporales
+# ==========================================
+tmp/
+*.tmp
+*.TMP
+*.bak
+*.BAK
+*.swp
+*.swo
+*~
+
+# ==========================================
+# Archivos del sistema
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# ==========================================
+# Credenciales y datos locales
+# ==========================================
+.env
+*.properties.local
